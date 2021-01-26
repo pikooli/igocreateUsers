@@ -1,6 +1,6 @@
 # igocreateUsers
 
-User creation interface. 
+User creation interface make with the [Igo](https://github.com/igocreate/igo). 
 
 ````
   You need to have a mysql running on port 3306.
