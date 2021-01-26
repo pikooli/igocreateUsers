@@ -1,6 +1,6 @@
 # igocreateUsers
 
-User creation interface make with the [Igo](https://github.com/igocreate/igo) framework.<br/>
+User creation interface make with the [Igo](https://github.com/igocreate/igo) framework ([docs](https://github.com/igocreate/igo/blob/master/docs/README.md)).<br/>
 Use Jquery, Html, Css, Javascript
 
 ````
