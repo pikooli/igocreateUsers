@@ -1,6 +1,7 @@
 # igocreateUsers
 
-User creation interface make with the [Igo](https://github.com/igocreate/igo). 
+User creation interface make with the [Igo](https://github.com/igocreate/igo) framework.
+Use Jquery, Html, Css, Javascript
 
 ````
   You need to have a mysql running on port 3306.
