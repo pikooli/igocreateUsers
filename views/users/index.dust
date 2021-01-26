@@ -1,0 +1,10 @@
+{> "layouts/main" /}
+
+{<content}
+    <div>
+		{> "users/users" /}
+	</div>
+	
+{/content}
+
+    

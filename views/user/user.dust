@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-sm-2">{> "shared/showImage" /}</div>
+  <form class="row col-sm-10" id="editUserForm" >
+    <input type="hidden" value="{user.id}" name="id">
+      <div class="col-sm-6">
+        {> "shared/inputField" value="{user.firstName}" name="firstName"/} 
+        {> "shared/inputField" value="{user.lastName}" name="lastName"/} 
+        {> "shared/inputField" value="{user.email}" name="email"/}
+        {> "shared/inputField" value="{user.phone}" name="phone"/}
+      </div>
+      <div class="col-sm-6">
+        {> "shared/inputField" value="{user.profession}" name="profession"/} 
+        {> "shared/inputField" value="{user.address}" name="address"/} 
+        {> "shared/inputField" value="{user.zipCode}" name="zipCode"/}
+      </div>
+      <button type="submit" class="btn btn-primary w-100 mt-5">Edit</button>
+  </form>
+</div>

@@ -1,0 +1,32 @@
+{
+  "name": "myproject",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "jshint": "jshint --reporter=node_modules/jshint-stylish ./app/**/*.js ./locales/**/*.json || true",
+    "nodemon": "nodemon app.js",
+    "start": "npm-run-all --parallel nodemon webpack",
+    "webpack": "webpack --mode=development --progress --watch",
+    "webpack-prod": "webpack --mode=production",
+    "test": "mocha --recursive --reporter dot --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "4.5.3",
+    "igo": "3.6.11",
+    "jquery": "3.5.1",
+    "lodash": "^4.17.20",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

@@ -1,0 +1,20 @@
+{> "layouts/main" /}
+
+{<content}
+    
+    <h1>User interface</h1>
+    <form id="createUserForm" class="mt-5">
+      {> "shared/inputField" name="firstName"/}
+      {> "shared/inputField" name="lastName"/}
+      {> "shared/inputField" name="email"/}
+      {> "shared/inputField" name="phone"/}
+      {> "shared/inputField" name="profession"/}
+      {> "shared/inputField" name="address"/}
+      {> "shared/inputField" name="zipCode"/}
+
+      <input type="submit" class="btn btn-primary mt-5 w-100" value="Submit">
+    </form>
+   
+    {/content}
+
+    

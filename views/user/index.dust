@@ -1,0 +1,12 @@
+{> "layouts/main" /}
+
+{<content}
+		<h1>User {user.firstName}</h1>
+		<button class="btn btn-danger float-right" id="deleteUser">X</button>
+		<div class="list-group list-group-flush mt-5">
+			{> "user/user" /}
+		</div>
+		
+{/content}
+
+    
